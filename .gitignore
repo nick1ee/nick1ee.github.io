@@ -13,3 +13,10 @@ resources/
 .idea/
 *.swp
 *.swo
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Privates
+temp/
