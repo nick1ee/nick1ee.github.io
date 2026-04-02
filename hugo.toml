@@ -24,6 +24,20 @@ theme = "PaperMod"
   ShowShareButtons = false
   ShowPostNavLinks = true
   defaultTheme = "auto"
+  comments = true
+
+  [params.giscus]
+    repo = "nick1ee/nick1ee.github.io"
+    repoID = "R_kgDOR3vlLA"
+    category = "Announcements"
+    categoryID = "DIC_kwDOR3vlLM4C53L3"
+    mapping = "pathname"
+    strict = "0"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "preferred_color_scheme"
+    lang = "en"
 
 [taxonomies]
   tag = "tags"
