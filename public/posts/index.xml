@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Posts on Nick&#39;s Blog</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Nick&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;這是我的第一篇文章！&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Nick's Blog</title><link>https://nick1ee.github.io/posts/</link><description>Recent content in Posts on Nick's Blog</description><generator>Hugo</generator><language>zh-tw</language><lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nick1ee.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://nick1ee.github.io/posts/hello-world/</link><pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate><guid>https://nick1ee.github.io/posts/hello-world/</guid><description>&lt;p&gt;這是我的第一篇文章！&lt;/p&gt;
 &lt;p&gt;Testing &lt;strong&gt;bold&lt;/strong&gt; and &lt;em&gt;italic&lt;/em&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;關於這個部落格&#34;&gt;關於這個部落格&lt;/h2&gt;
-&lt;p&gt;這裡會寫技術、AI、管理相關的內容。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;h2 id="關於這個部落格"&gt;關於這個部落格&lt;/h2&gt;
+&lt;p&gt;這裡會寫技術、AI、管理相關的內容。&lt;/p&gt;</description></item></channel></rss>
