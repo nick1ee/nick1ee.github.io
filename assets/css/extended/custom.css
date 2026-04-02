@@ -1,0 +1,9 @@
+.post-content,
+.post-header,
+.post-footer {
+  max-width: 900px;
+}
+
+.main {
+  max-width: 900px;
+}

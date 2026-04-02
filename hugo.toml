@@ -1,6 +1,6 @@
 baseURL = "https://nick1ee.github.io/"
 languageCode = "zh-tw"
-title = "Nick's Blog"
+title = "Nick x Thinking x AI"
 theme = "PaperMod"
 enableRobotsTXT = true
 
