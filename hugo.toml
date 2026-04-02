@@ -2,43 +2,89 @@ baseURL = "https://nick1ee.github.io/"
 languageCode = "zh-tw"
 title = "Nick's Blog"
 theme = "PaperMod"
+enableRobotsTXT = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
 
 [[menus.main]]
-  name = "Posts"
-  url = "/posts/"
-  weight = 1
+name = "Posts"
+url = "/posts/"
+weight = 1
 
 [[menus.main]]
-  name = "About"
-  url = "/about/"
-  weight = 2
+name = "Archives"
+url = "/archives/"
+weight = 2
 
 [[menus.main]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 3
+name = "Search"
+url = "/search/"
+weight = 3
+
+[[menus.main]]
+name = "About"
+url = "/about/"
+weight = 4
 
 [params]
-  homeInfoParams = {Title = "Hi, I'm Nick 👋", Content = "Engineering Manager. Writing about tech, AI, and leadership."}
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  defaultTheme = "auto"
-  comments = true
+env = "production"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+showtoc = true
+tocopen = false
+comments = true
 
-  [params.giscus]
-    repo = "nick1ee/nick1ee.github.io"
-    repoID = "R_kgDOR3vlLA"
-    category = "Announcements"
-    categoryID = "DIC_kwDOR3vlLM4C53L3"
-    mapping = "pathname"
-    strict = "0"
-    reactionsEnabled = "1"
-    emitMetadata = "0"
-    inputPosition = "bottom"
-    theme = "preferred_color_scheme"
-    lang = "en"
+[params.homeInfoParams]
+Title = "Hi, I'm Nick 👋"
+Content = "Engineering Manager. Writing about tech, AI, and leadership."
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/nick1ee"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/nick-lee-8b51b4bb/"
+
+[[params.socialIcons]]
+name = "rss"
+url = "/index.xml"
+
+[params.assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
+
+[params.giscus]
+repo = "nick1ee/nick1ee.github.io"
+repoID = "R_kgDOR3vlLA"
+category = "Announcements"
+categoryID = "DIC_kwDOR3vlLM4C53L3"
+mapping = "pathname"
+strict = "0"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+theme = "preferred_color_scheme"
+lang = "en"
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
+tag = "tags"
+category = "categories"

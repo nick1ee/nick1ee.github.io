@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -4,7 +4,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>About | Nick&#39;s Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="about">
@@ -70,6 +70,60 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="http://localhost:1313/about/">
+  <meta property="og:site_name" content="Nick&#39;s Blog">
+  <meta property="og:title" content="About">
+  <meta property="og:description" content="about">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="About">
+  <meta name="twitter:description" content="about">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "About",
+      "item": "http://localhost:1313/about/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "About",
+  "name": "About",
+  "description": "about",
+  "keywords": [
+    
+  ],
+  "articleBody": "Hi, I’m Nick 👋 Engineering Manager with 10 years of development experience and 5 years in team leadership. Currently building and leading engineering teams, with a focus on practical AI implementation and scalable system design.\nI write about engineering management, AI/LLM applications, and backend architecture — things I’m actively working on or thinking through.\nExperience Senior Manager · 阿物科技 (awoo Intelligence) · 2022 – Present\nBuilt Agentic Workflows that reduced manual processing from 2 days to under 10 minutes Architected high-concurrency systems supporting 1,000+ RPS with 99.95%+ SLA Led a team of 5 engineers, overseeing hiring, mentorship, and delivery Backend Manager · 91APP · 2019 – 2021\nLed 5-member team maintaining 99.5%+ SLA on OMO systems Introduced GitLab CI/CD, reducing deployment effort by 80% Sr. Software Developer · HP Inc. · 2021 – 2022\nSr. iOS Developer · 91APP · 2017 – 2019\nSkills Backend · C# (.NET 8/9), Distributed Systems, Event-Driven Architecture, Docker/Kubernetes, GCP/AWS\nAI · LLM Integration, Agentic Design Pattern, LLM Orchestration, Model Evaluation\nData · PostgreSQL, ClickHouse, Redis\nContact Email: zhongwei0717@gmail.com GitHub: nick1ee ",
+  "wordCount" : "176",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/about/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nick's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
@@ -107,13 +161,18 @@
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about/" title="About">
-                    <span class="active">About</span>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
-                    <span>Tags</span>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span class="active">About</span>
                 </a>
             </li>
         </ul>
@@ -123,14 +182,34 @@
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="http://localhost:1313/">首頁</a></div>
     <h1 class="post-title entry-hint-parent">
       About
     </h1>
-    <div class="post-meta"><span>1 分鐘</span>
+    <div class="post-meta"><span>1 分鐘</span>&nbsp;·&nbsp;<span>176 字</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目錄</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#hi-im-nick-" aria-label="Hi, I&rsquo;m Nick 👋">Hi, I&rsquo;m Nick 👋</a></li>
+                <li>
+                    <a href="#experience" aria-label="Experience">Experience</a></li>
+                <li>
+                    <a href="#skills" aria-label="Skills">Skills</a></li>
+                <li>
+                    <a href="#contact" aria-label="Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><h2 id="hi-im-nick-">Hi, I&rsquo;m Nick 👋<a hidden class="anchor" aria-hidden="true" href="#hi-im-nick-">#</a></h2>
 <p>Engineering Manager with 10 years of development experience and 5 years in team leadership. Currently building and leading engineering teams, with a focus on practical AI implementation and scalable system design.</p>
 <p>I write about <strong>engineering management</strong>, <strong>AI/LLM applications</strong>, and <strong>backend architecture</strong> — things I&rsquo;m actively working on or thinking through.</p>
@@ -261,6 +340,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '複製';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已複製！';
+            setTimeout(() => {
+                copybutton.innerHTML = '複製';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 
