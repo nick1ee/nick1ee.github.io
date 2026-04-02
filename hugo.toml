@@ -88,3 +88,7 @@ keys = ["title", "permalink", "summary", "content"]
 [taxonomies]
 tag = "tags"
 category = "categories"
+
+# Medium 匯出內文為 HTML，需允許內嵌標籤與圖片
+[markup.goldmark.renderer]
+unsafe = true
