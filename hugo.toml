@@ -1,0 +1,15 @@
+baseURL = "https://nick1ee.github.io/"
+languageCode = "zh-tw"
+title = "Nick's Blog"
+theme = "PaperMod"
+
+[params]
+  homeInfoParams = {Title = "Hi, I'm Nick 👋", Content = "Engineering Manager. Writing about tech, AI, and leadership."}
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  defaultTheme = "auto"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
