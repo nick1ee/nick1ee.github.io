@@ -1,6 +1,6 @@
 +++
 date = '2026-04-04T18:24:20+08:00'
-draft = true
+draft = false
 title = '這份 Skill 讓你把影片轉換成可以學習的材料！'
 tags = ["LLM", "SKILL"]
 categories = ["LLM"]
