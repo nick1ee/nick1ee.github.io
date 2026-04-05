@@ -1,46 +1,66 @@
 ---
-title: "About"
+title: "Hi, I'm Nick 🙋‍♂️"
 layout: "about"
 url: "/about/"
-summary: "about"
+hideMeta: true
+ShowReadingTime: false
+ShowWordCount: false
+ShowToc: false
 ---
 
-## Hi, I'm Nick 👋
-
-Engineering Manager with 10 years of development experience and 5 years in team leadership. Currently building and leading engineering teams, with a focus on practical AI implementation and scalable system design.
-
-I write about **engineering management**, **AI/LLM applications**, and **backend architecture** — things I'm actively working on or thinking through.
-
----
-
-## Experience
-
-**Senior Manager** · 阿物科技 (awoo Intelligence) · 2022 – Present
-- Built Agentic Workflows that reduced manual processing from 2 days to under 10 minutes
-- Architected high-concurrency systems supporting 1,000+ RPS with 99.95%+ SLA
-- Led a team of 5 engineers, overseeing hiring, mentorship, and delivery
-
-**Backend Manager** · 91APP · 2019 – 2021
-- Led 5-member team maintaining 99.5%+ SLA on OMO systems
-- Introduced GitLab CI/CD, reducing deployment effort by 80%
-
-**Sr. Software Developer** · HP Inc. · 2021 – 2022
-
-**Sr. iOS Developer** · 91APP · 2017 – 2019
+I use this site to write up new findings, technical reviews, and whatever I'm thinking about lately.
+If you're looking for my professional background, you can find it on [Contact](#contact) below.
+Feel free to reach out.
 
 ---
 
-## Skills
+## Background & skills
 
-**Backend** · C# (.NET 8/9), Distributed Systems, Event-Driven Architecture, Docker/Kubernetes, GCP/AWS
+#### Architecture
 
-**AI** · LLM Integration, Agentic Design Pattern, LLM Orchestration, Model Evaluation
+- System design (especially distributed systems)
+- Event-driven workflows
+- Docker
+- Kubernetes
+- GCP / AWS
 
-**Data** · PostgreSQL, ClickHouse, Redis
+#### Databases
+
+- OLTP: PostgreSQL, Microsoft SQL Server
+- OLAP: ClickHouse
+- Redis
+- BigQuery
+
+#### AI & LLMs
+
+- LLM integration
+- Agentic design patterns
+- LLM orchestration
+
+#### Management
+
+- Engineering team leadership & delivery
+- Hiring, onboarding, and mentorship
+- Roadmaps, prioritization, and technical alignment with stakeholders
+- Running 1:1s, feedback, and performance conversations
+- Improving engineering practices (CI/CD, quality, incident response)
 
 ---
 
-## Contact
+## What I can offer
 
-- Email: zhongwei0717@gmail.com
+- System design consulting
+- Contract / outsourced software development
+- Agentic workflow consulting
+- Mock interviews
+- Career coaching
+
+---
+
+## Contact {#contact}
+
+- Email: [zhongwei0717@gmail.com](mailto:zhongwei0717@gmail.com)
+- Free Chat Form: [尼克，可以聊聊嗎？](https://forms.gle/n5y4wJDfTQZxzM8S7)
 - GitHub: [nick1ee](https://github.com/nick1ee)
+- LinkedIn: [Nick Lee](https://www.linkedin.com/in/nick-lee-8b51b4bb/)
+- CakeResume: [Nick Lee](https://www.cake.me/nick1ee-2300c5)
